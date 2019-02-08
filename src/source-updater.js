@@ -34,6 +34,7 @@ export default class SourceUpdater {
     this.logger_ = logger(`SourceUpdater[${type}][${mimeType}]`);
 
     let createSourceBufferDeferred;
+    console.log("hello world")
 
       const createSourceBuffer = () => {
 
